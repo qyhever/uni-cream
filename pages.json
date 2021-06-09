@@ -1,0 +1,78 @@
+{
+  "pages": [
+    {
+      "path": "pages/tabbar/building/index",
+      "style": {
+        "navigationBarTitleText": "楼宇",
+        "usingComponents": {
+          "van-tab": "/wxcomponents/vant/tab/index",
+          "van-tabs": "/wxcomponents/vant/tabs/index"
+        }
+      }
+    },
+    {
+      "path": "pages/tabbar/home/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/tabbar/data-space/index",
+      "style": {
+        "navigationBarTitleText": "数据舱"
+      }
+    },
+    {
+      "path": "pages/tabbar/check/index",
+      "style": {
+        "navigationBarTitleText": "审核"
+      }
+    },
+    {
+      "path": "pages/tabbar/my/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [{
+        "pagePath": "pages/tabbar/home/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/building/index",
+        "iconPath": "static/building.png",
+        "selectedIconPath": "static/building-active.png",
+        "text": "楼宇"
+      }, {
+        "pagePath": "pages/tabbar/data-space/index",
+        "iconPath": "static/heart.png",
+        "selectedIconPath": "static/heart-active.png",
+        "text": "数据舱"
+      }, {
+        "pagePath": "pages/tabbar/check/index",
+        "iconPath": "static/search.png",
+        "selectedIconPath": "static/search-active.png",
+        "text": "审核"
+      }, {
+        "pagePath": "pages/tabbar/my/index",
+        "iconPath": "static/user.png",
+        "selectedIconPath": "static/user-active.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

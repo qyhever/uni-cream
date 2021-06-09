@@ -1,0 +1,42 @@
+/**
+ * 原子性 css
+ */
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.items-start {
+  align-items: flex-start;
+}
+.items-center {
+  align-items: center;
+}
+.items-end {
+  align-items: flex-end;
+}
+.text-color-white {
+  color: #fff;
+}
+.text-color-grey {
+  color: #d3d3d3;
+}
+.text-color-success {
+  color: #67C23A;
+}
+.text-color-danger {
+  color: #F56C6C;
+}
