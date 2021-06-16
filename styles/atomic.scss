@@ -1,6 +1,9 @@
 /**
  * 原子性 css
  */
+.padding-top-10 {
+  padding-top: 10px;
+}
 .flex {
   display: flex;
 }
@@ -28,6 +31,9 @@
 .items-end {
   align-items: flex-end;
 }
+.flex-grow {
+  flex-grow: 1;
+}
 .text-color-white {
   color: #fff;
 }
@@ -39,4 +45,19 @@
 }
 .text-color-danger {
   color: #F56C6C;
+}
+.text-color-regular {
+  color: #606266;
+}
+.text-color-secondary {
+  color: #909399;
+}
+.text-color-placeholder {
+  color: #C0C4CC;
+}
+.font-size-16 {
+  font-size: 16px;
+}
+.font-size-18 {
+  font-size: 18px;
 }

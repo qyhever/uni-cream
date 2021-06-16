@@ -1,0 +1,21 @@
+{
+  "name": "uni-cream",
+  "version": "1.0.0",
+  "description": "use uni to develop wechat applet\r 使用 uni 开发 微信小程序\r 本项目为 HBuilderX 创建项目，通过 HBuilderX 运行",
+  "main": "main.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qyhever/uni-cream.git"
+  },
+  "keywords": ["uni", "miniprogram", "wechat"],
+  "author": "qyhever",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qyhever/uni-cream/issues"
+  },
+  "homepage": "https://github.com/qyhever/uni-cream#readme",
+  "dependencies": {
+    "qs": "^6.10.1"
+  }
+}
