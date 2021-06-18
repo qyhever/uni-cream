@@ -1,19 +1,26 @@
 {
   "pages": [
     {
-      "path": "pages/tabbar/building/index",
+      "path": "pages/tabbar/my/index",
       "style": {
-        "navigationBarTitleText": "楼宇",
-        "usingComponents": {
-          "van-tab": "/wxcomponents/vant/tab/index",
-          "van-tabs": "/wxcomponents/vant/tabs/index"
-        }
+        "navigationBarTitleText": "我的"
       }
     },
     {
       "path": "pages/tabbar/home/index",
       "style": {
         "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/tabbar/building/index",
+      "style": {
+        "navigationBarTitleText": "楼宇",
+        "usingComponents": {
+          "van-tab": "/wxcomponents/vant/tab/index",
+          "van-tabs": "/wxcomponents/vant/tabs/index",
+          "van-loading": "/wxcomponents/vant/loading/index"
+        }
       }
     },
     {
@@ -26,12 +33,6 @@
       "path": "pages/tabbar/check/index",
       "style": {
         "navigationBarTitleText": "审核"
-      }
-    },
-    {
-      "path": "pages/tabbar/my/index",
-      "style": {
-        "navigationBarTitleText": "我的"
       }
     }
   ],
