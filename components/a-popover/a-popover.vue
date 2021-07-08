@@ -65,7 +65,7 @@ export default {
 
 <style lang="scss" scoped>
 .dropmenu {
-  position: absolute;
+  // position: absolute;
 }
 .dropmenu-trigger {
   z-index: 1025;
@@ -73,11 +73,11 @@ export default {
 }
 .dropmenu-list {
   z-index: -1;
-  position: relative;
+  position: absolute;
   padding: 10px;
   background-color: #fff;
   transition: all 0.3s ease-in-out;
-  transform: translateY(-100%);
+  transform: translateY(-10px);
   opacity: 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

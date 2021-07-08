@@ -1,6 +1,12 @@
 {
   "pages": [
     {
+      "path": "pages/tabbar/data-space/index",
+      "style": {
+        "navigationBarTitleText": "数据舱"
+      }
+    },
+    {
       "path": "pages/tabbar/my/index",
       "style": {
         "navigationBarTitleText": "我的"
@@ -24,12 +30,6 @@
       }
     },
     {
-      "path": "pages/tabbar/data-space/index",
-      "style": {
-        "navigationBarTitleText": "数据舱"
-      }
-    },
-    {
       "path": "pages/tabbar/check/index",
       "style": {
         "navigationBarTitleText": "审核"
@@ -40,7 +40,10 @@
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "backgroundColor": "#F8F8F8",
+    "usingComponents":{
+      "van-transition": "/wxcomponents/vant/transition/index"
+    }
   },
   "tabBar": {
     "color": "#7A7E83",
